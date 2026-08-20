@@ -1,8 +1,8 @@
-# 🔐 Random Password Generator
+# Random Password Generator
 
 A Python-based password generator that creates strong, secure passwords based on user-selected criteria. The project includes both a beginner-friendly command-line version and an advanced GUI version with security-focused controls.
 
-## ✨ Features
+## Features
 
 ### Beginner Features
 - Prompt for password length
@@ -26,18 +26,18 @@ A Python-based password generator that creates strong, secure passwords based on
 - Option to exclude ambiguous characters like `0 O 1 l`
 - Displays the last 5 generated passwords in the current session
 
-## 🧰 Tech Stack
+## Tech Stack
 - Python
 - `random` / `secrets`
 - `string`
 - `tkinter`
 - `pyperclip`
 
-## 📁 Project Files
+## Project Files
 - `password_generator.py` - Main application logic and GUI
 - `test_password_generator.py` - Validation tests for generator behavior
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Open a terminal
 Navigate to the project folder:
@@ -53,19 +53,19 @@ python password_generator.py
 
 This will launch the GUI version. If the GUI cannot run in the environment, the program falls back to the command-line version.
 
-## 🧪 Run Tests
+## Run Tests
 
 ```bash
 cd "d:\Password Generator"
 pytest -q
 ```
 
-## 🛡️ Security Notes
+## Security Notes
 - Password generation uses `secrets` for secure random selection.
 - Generated passwords are not saved to disk.
 - Recent password history is kept only in memory during the active session.
 
-## 📌 Example
+## Example
 
 ```text
 Password Length: 16
@@ -74,11 +74,11 @@ Generated Password: K7p!Qm2@xL9s#Z4v
 Strength: Strong
 ```
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Add password history saving with encryption
 - Add dark/light theme toggle
 - Add support for custom symbol sets
 - Add save/export options for generated passwords
 
-## 📄 License
+## License
 This project is open-source and can be used for learning and personal projects.
